@@ -6,20 +6,20 @@ function sum($max){
     }
     return $result;
 }
-echo sum(100) . "\n";
+echo sum(100) ;
 
 
 
 function double($a)
 {
    $result = $a * 2;
-   return $result . "\n";
+   return $result;
 }
 
 
 function add($a,$b){
     $sum = $a + $b;
-    return $sum . "\n";
+    return $sum;
 }
 
 
