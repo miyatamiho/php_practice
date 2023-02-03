@@ -41,9 +41,11 @@ if ($name == "MiyataMiho"){
   echo "宮田美穂ではありません" . "\n";
 } 
 
+$total = 0;
 for($i = 0; $i < 10000; $i++){
-  echo $i . "\n";
+  $total += $i;
 }
+echo $total;
 
 $fruits = array("apple","lemon","orange","melon","banana");
 foreach($fruits as $fruits){
